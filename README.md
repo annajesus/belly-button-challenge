@@ -6,18 +6,18 @@
     
 
 ## 2. Create a horizontal bar chart with a dropdown menu to display the top 10 OTUs found in that individual.
-    * Use *sample_values* as the values for the bar chart.
-    * Use *otu_ids* as the labels for the bar chart.
-    * Use *otu_labels* as the hovertext for the chart.
+    * Use sample_values as the values for the bar chart.
+    * Use otu_ids as the labels for the bar chart.
+    * Use otu_labels as the hovertext for the chart.
 
 <img width="494" alt="Screen Shot 2022-12-15 at 10 01 31 PM" src="https://user-images.githubusercontent.com/108558769/208012531-adb45d79-49de-4677-bded-e8a7b03eae77.png">
 
-## 3.Create a bubble chart that displays each sample.
-    * Use *otu_ids* for the x values.
-    * Use *sample_values* for the y values.
-    * Use *sample_values* for the marker size.
-    * Use *otu_ids* for the marker colors.
-    * Use *otu_labels* for the text values.
+## 3. Create a bubble chart that displays each sample.
+    * Use otu_ids for the x values.
+    * Use sample_values for the y values.
+    * Use sample_values for the marker size.
+    * Use otu_ids for the marker colors.
+    * Use otu_labels for the text values.
 
 <img width="809" alt="Screen Shot 2022-12-15 at 10 01 45 PM" src="https://user-images.githubusercontent.com/108558769/208012667-10110012-5ef3-4ce5-aab7-a8136619c6c6.png">
 
@@ -34,4 +34,4 @@
 
 
 ### References
-*Hulcr, J. et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
+* Hulcr, J. et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. Retrieved from: http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/
