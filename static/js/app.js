@@ -145,7 +145,7 @@ function getData(id) {
 function optionChanged(id) {
     getPlot(id);
     getData(id);
-
+}
 
 // create the function for the initial data rendering
 function init() {
@@ -157,8 +157,8 @@ function init() {
         console.log(data)
 
         // import id data info into dropdwown menu
-        data.names.forEach(function(name) {
-            dropdown.append("option").text(name).property("value");
+        data.names.forEach((name) => {
+            dropdown.append("option").text(name).property("value", name);
         });
 
         // call the functions 
@@ -168,4 +168,3 @@ function init() {
 }
 
 init();
-}
