@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/108558769/208013199-7e0b478e-e12f-4e50-83ae-b2c794ed0b6e.png)
 
-# In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity dataset Links to an external site., which catalogs the microbes that colonize humannavels.The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
+## In this assignment, you will build an interactive dashboard to explore the Belly Button Biodiversity dataset Links to an external site., which catalogs the microbes that colonize humannavels.The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
 ## 1. Use the D3 library to read in samples.json from the URL 
     
