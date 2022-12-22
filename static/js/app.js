@@ -1,27 +1,6 @@
 const url = "https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-classroom/v1.1/14-Interactive-Web-Visualizations/02-Homework/samples.json";
 const dataSample = 'Data/samples.json'
 
-    // Promise Pending
-    // const dataPromise = d3.json(dataSample);
-    // console.log(dataPromise);
-
-    // // Fetch the JSON data and console log it
-    // d3.json(url).then((data) => {   
-
-    // console.log(data);
-
-    // data.names.forEach((x) => {   
-
-    // d3.select("#selDataset").append("option")   
-    // .text(x)
-    // .property("value", x);
-    // });
-
-    // getPlot(data.names[0])   
-
-    // })
-
-
 
 // create function for plotting all of the data
 function getPlot(id){
@@ -115,7 +94,7 @@ d3.json(url).then((data)=> {
 // create a function to get the data
 function getData(id) {
     // get data from json file again 
-    d3.json("Data/samples.json").then((data) => {
+    d3.json(url).then((data) => {
 
         // get metadata to display an individual's demographic information
         var metadata = data.metadata;
@@ -153,7 +132,7 @@ function init() {
     var dropdown = d3.select("#selDataset");
 
     // get data from json file again 
-    d3.json("Data/samples.json").then((data)=> {
+    d3.json(url).then((data)=> {
         console.log(data)
 
         // import id data info into dropdwown menu
